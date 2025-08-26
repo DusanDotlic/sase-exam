@@ -1,0 +1,15 @@
+:root { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; }
+body { margin: 0; background: #0b1220; color: #e3e8f3; }
+a { color: #8ab4ff; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.nav { display:flex; justify-content:space-between; align-items:center; padding:12px 16px; background:#101a2e; border-bottom:1px solid #1e2a44; position:sticky; top:0; }
+.brand { font-weight:700; letter-spacing:.3px; }
+.nav a, .nav .ghost { margin-left:10px; }
+
+.container { max-width: 860px; margin: 32px auto; padding: 0 16px; }
+.card { background:#101a2e; border:1px solid #1e2a44; padding:16px; border-radius:12px; margin:16px 0; }
+.card input, .card textarea { width:100%; padding:10px; border-radius:8px; border:1px solid #26324f; background:#0e1729; color:#e3e8f3; margin:8px 0; }
+.card button, .nav .ghost { padding:10px 14px; border-radius:8px; border:1px solid #2b3b60; background:#162444; color:#e3e8f3; cursor:pointer; }
+.card button:hover, .nav .ghost:hover { filter:brightness(1.1); }
+.note pre { white-space:pre-wrap; }
