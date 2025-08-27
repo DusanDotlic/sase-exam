@@ -17,8 +17,8 @@ Implements **users ↔ notes** relation, JWT auth with access & refresh tokens, 
 
 ## Requirements
 - PHP 8.1+ with Composer
-- MySQL / MariaDB
-- XAMPP or Apache with SSL enabled
+- MySQL
+- Apache with SSL enabled
 - Git
 
 ---
@@ -27,5 +27,5 @@ Implements **users ↔ notes** relation, JWT auth with access & refresh tokens, 
 
 1. **Clone repo**
    ```bash
-   git clone https://github.com/YOURNAME/sase-exam.git
+   git clone https://github.com/DusanDotlic/sase-exam.git
    cd sase-exam
